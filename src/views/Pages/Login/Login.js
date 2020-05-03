@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useHistory } from "react-router-dom";
 import {
   Button,
   Card,
@@ -14,8 +14,33 @@ import {
   InputGroupText,
   Row
 } from "reactstrap";
+import { useDispatch, useSelector } from 'react-redux';
 
 function Login() {
+  const dispatch = useDispatch();
+  const history = useHistory();
+  const { isInitialized, isAuthenticated } = useSelector(state => state.user);
+  const [email, setEmail] = useState('randygarces@yahoo.com');
+  const [password, setPassword] = useState('123456789');
+
+  // console.log('isInitialized', isInitialized);
+  
+  useEffect(() => {
+    if(isAuthenticated) {
+      history.push("/")
+    }
+  }, [isAuthenticated]);
+
+  const onLogin = (ev) => {
+    ev.preventDefault()
+    dispatch({
+      type: 'user/login',
+      payload: {
+        username: email,
+        password,
+      }
+    })
+  }
   return (
     <div className="app flex-row align-items-center">
       <Container>
@@ -24,7 +49,7 @@ function Login() {
             <CardGroup>
               <Card className="p-4">
                 <CardBody>
-                  <Form>
+                  <Form onSubmit={onLogin}>
                     <h1>Login</h1>
                     <p className="text-muted">Sign In to your account</p>
                     <InputGroup className="mb-3">
@@ -37,6 +62,8 @@ function Login() {
                         type="text"
                         placeholder="Username"
                         autoComplete="username"
+                        value={email}
+                        onChange={(ev) => setEmail(ev.target.value)}
                       />
                     </InputGroup>
                     <InputGroup className="mb-4">
@@ -49,6 +76,8 @@ function Login() {
                         type="password"
                         placeholder="Password"
                         autoComplete="current-password"
+                        value={password}
+                        onChange={(ev) => setPassword(ev.target.value)}
                       />
                     </InputGroup>
                     <Row>

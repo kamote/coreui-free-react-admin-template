@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import { Redirect, Route, Switch } from "react-router-dom";
 import * as router from "react-router-dom";
 import { Container } from "reactstrap";
+import { useDispatch, useSelector } from 'react-redux';
 
 import {
   AppAside,
@@ -25,12 +26,17 @@ const DefaultFooter = React.lazy(() => import("./DefaultFooter"));
 const DefaultHeader = React.lazy(() => import("./DefaultHeader"));
 
 function DefaultLayout(props) {
+  const dispatch = useDispatch();
+  
   function loading() {
     return <div className="animated fadeIn pt-1 text-center">Loading...</div>;
   }
 
   function signOut(e) {
     e.preventDefault();
+    dispatch({
+      type: 'user/logout'
+    })
     props.history.push("/login");
   }
   return (

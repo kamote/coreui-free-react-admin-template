@@ -26,47 +26,47 @@ CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of 
 
 ## Table of Contents
 
-* [Versions](#versions)
-* [CoreUI Pro](#coreui-pro)
-* [Admin Templates built on top of CoreUI Pro](#admin-templates-built-on-top-of-coreui-pro)
-* [Installation](#installation)
-* [Usage](#usage)
-* [What's included](#whats-included)
-* [Documentation](#documentation)
-* [Contributing](#contributing)
-* [Versioning](#versioning)
-* [Creators](#creators)
-* [Community](#community)
-* [Community Projects](#community-projects)
-* [License](#license)
-* [Support CoreUI Development](#support-coreui-development)
+- [Versions](#versions)
+- [CoreUI Pro](#coreui-pro)
+- [Admin Templates built on top of CoreUI Pro](#admin-templates-built-on-top-of-coreui-pro)
+- [Installation](#installation)
+- [Usage](#usage)
+- [What's included](#whats-included)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+- [Versioning](#versioning)
+- [Creators](#creators)
+- [Community](#community)
+- [Community Projects](#community-projects)
+- [License](#license)
+- [Support CoreUI Development](#support-coreui-development)
 
 ## Versions
 
-* [CoreUI Free Bootstrap Admin Template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
-* [CoreUI Free Bootstrap Admin Template (Ajax)](https://github.com/coreui/coreui-free-bootstrap-admin-template-ajax)
-* [CoreUI Free Angular 2+ Admin Template](https://github.com/coreui/coreui-free-angular-admin-template)
-* 🚧 CoreUI Free .NET Core 2 Admin Template (Available Soon)
-* [CoreUI Free React.js Admin Template](https://github.com/coreui/coreui-free-react-admin-template)
-* [CoreUI Free Vue.js Admin Template](https://github.com/coreui/coreui-free-vue-admin-template)
+- [CoreUI Free Bootstrap Admin Template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
+- [CoreUI Free Bootstrap Admin Template (Ajax)](https://github.com/coreui/coreui-free-bootstrap-admin-template-ajax)
+- [CoreUI Free Angular 2+ Admin Template](https://github.com/coreui/coreui-free-angular-admin-template)
+- 🚧 CoreUI Free .NET Core 2 Admin Template (Available Soon)
+- [CoreUI Free React.js Admin Template](https://github.com/coreui/coreui-free-react-admin-template)
+- [CoreUI Free Vue.js Admin Template](https://github.com/coreui/coreui-free-vue-admin-template)
 
 ## CoreUI Pro
 
-* 💪  [CoreUI Pro Bootstrap Admin Template](https://coreui.io/pro/)
-* 💪  [CoreUI Pro Bootstrap Admin Template (Ajax)](https://coreui.io/pro/)
-* 💪  [CoreUI Pro Angular Admin Template](https://coreui.io/pro/angular)
-* 💪  [CoreUI Pro React Admin Template](https://coreui.io/pro/react)
-* 💪  [CoreUI Pro Vue Admin Template](https://coreui.io/pro/vue)
+- 💪 [CoreUI Pro Bootstrap Admin Template](https://coreui.io/pro/)
+- 💪 [CoreUI Pro Bootstrap Admin Template (Ajax)](https://coreui.io/pro/)
+- 💪 [CoreUI Pro Angular Admin Template](https://coreui.io/pro/angular)
+- 💪 [CoreUI Pro React Admin Template](https://coreui.io/pro/react)
+- 💪 [CoreUI Pro Vue Admin Template](https://coreui.io/pro/vue)
 
 ## Admin Templates built on top of CoreUI Pro
 
-| CoreUI Pro | Prime | Root | Alba | Leaf |
-| --- | --- | --- | --- | --- |
-| [![CoreUI Pro React Admin Template](https://coreui.io/assets/img/example-coureui.jpg)](https://coreui.io/pro/react/) | [![Prime React Admin Template](https://genesisui.com/assets/img/templates/prime1280.jpg)](https://genesisui.com/admin-templates/reactjs/prime/?support=1) | [![Root React Admin Template](https://genesisui.com/assets/img/templates/root1280.jpg)](https://genesisui.com/admin-templates/reactjs/root/?support=1) | [![Alba React Admin Template](https://genesisui.com/assets/img/templates/alba1280.jpg)](https://genesisui.com/admin-templates/reactjs/alba/?support=1) | [![Leaf React Admin Template](https://genesisui.com/assets/img/templates/leaf1280.jpg)](https://genesisui.com/admin-templates/reactjs/leaf/?support=1)
+| CoreUI Pro                                                                                                           | Prime                                                                                                                                                     | Root                                                                                                                                                   | Alba                                                                                                                                                   | Leaf                                                                                                                                                   |
+| -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [![CoreUI Pro React Admin Template](https://coreui.io/assets/img/example-coureui.jpg)](https://coreui.io/pro/react/) | [![Prime React Admin Template](https://genesisui.com/assets/img/templates/prime1280.jpg)](https://genesisui.com/admin-templates/reactjs/prime/?support=1) | [![Root React Admin Template](https://genesisui.com/assets/img/templates/root1280.jpg)](https://genesisui.com/admin-templates/reactjs/root/?support=1) | [![Alba React Admin Template](https://genesisui.com/assets/img/templates/alba1280.jpg)](https://genesisui.com/admin-templates/reactjs/alba/?support=1) | [![Leaf React Admin Template](https://genesisui.com/assets/img/templates/leaf1280.jpg)](https://genesisui.com/admin-templates/reactjs/leaf/?support=1) |
 
 ## Installation
 
-``` bash
+```bash
 # clone the repo
 $ git clone https://github.com/coreui/coreui-free-react-admin-template.git my-project
 
@@ -78,6 +78,7 @@ $ npm install
 ```
 
 ## Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 see also:
@@ -85,12 +86,12 @@ see also:
 
 ### Basic usage
 
-``` bash
-# dev server  with hot reload at http://localhost:3000
+```bash
+# dev server  with hot reload at http://localhost:4000
 $ npm start
 ```
 
-Navigate to [http://localhost:3000](http://localhost:3000). The app will automatically reload if you change any of the source files.
+Navigate to [http://localhost:4000](http://localhost:4000). The app will automatically reload if you change any of the source files.
 
 ### Build
 
@@ -126,8 +127,7 @@ CoreUI-React#v2.0.0
 
 ## Documentation
 
-The documentation for the CoreUI  Admin Template is hosted at our website [CoreUI for React](https://coreui.io/react/)
-
+The documentation for the CoreUI Admin Template is hosted at our website [CoreUI for React](https://coreui.io/react/)
 
 ## Contributing
 
@@ -144,11 +144,13 @@ See [the Releases section of our project](https://github.com/coreui/coreui-free-
 ## Creators
 
 **Łukasz Holeczek**
-* <https://twitter.com/lukaszholeczek>
-* <https://github.com/mrholek>
+
+- <https://twitter.com/lukaszholeczek>
+- <https://github.com/mrholek>
 
 **Andrzej Kopański**
-* <https://github.com/xidedix>
+
+- <https://github.com/xidedix>
 
 ## Community
 
@@ -161,9 +163,9 @@ Get updates on CoreUI's development and chat with the project maintainers and co
 
 Some of projects created by community but not maintained by CoreUI team.
 
-* [NuxtJS + Vue CoreUI](https://github.com/muhibbudins/nuxt-coreui)
-* [Colmena](https://github.com/colmena/colmena)
-* [mvelosop/AspNetCore2CoreUI](https://github.com/mvelosop/AspNetCore2CoreUI)
+- [NuxtJS + Vue CoreUI](https://github.com/muhibbudins/nuxt-coreui)
+- [Colmena](https://github.com/colmena/colmena)
+- [mvelosop/AspNetCore2CoreUI](https://github.com/mvelosop/AspNetCore2CoreUI)
 
 ## Copyright and license
 
